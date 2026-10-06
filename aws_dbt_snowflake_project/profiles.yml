@@ -1,0 +1,14 @@
+aws_dbt_snowflake_project:
+  outputs:
+    dev:
+      account: VMFZGMY-CD41950
+      database: SNOWPRO
+      password: GangothriBhasha@2004
+      role: ACCOUNTADMIN
+      schema: dbt_schema
+      threads: 1
+      type: snowflake
+      user: GANGOTHRI
+      warehouse: COMPUTE_WH
+  target: dev
+
